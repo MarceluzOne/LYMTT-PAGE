@@ -7,7 +7,7 @@ const product = reactive({
   tagline: 'Transforme Metas em Hábitos Duradouros.',
   headline: 'O Aplicativo Web para Criar e Acompanhar Seus Hábitos Saudáveis',
   description: [
-    'O WeDo é uma solução de gerenciamento de metas e tarefas focada em **engajamento**. Com uma interface intuitiva e design mobile-first (como um app nativo), tornamos a criação de hábitos saudáveis (como exercícios, leitura ou estudo) uma experiência divertida e recompensadora.',
+    'O WeDo é uma solução de gerenciamento de metas e tarefas focada em engajamento. Com uma interface intuitiva e design mobile-first (como um app nativo), tornamos a criação de hábitos saudáveis (como exercícios, leitura ou estudo) uma experiência divertida e recompensadora.',
     'Construído para rodar no seu navegador (desktop e mobile), o WeDo não exige instalação, oferecendo a mesma experiência fluida de um aplicativo, garantindo que suas metas estejam sempre ao seu alcance.'
   ],
   cta: 'Solicitar Acesso à Demonstração',
@@ -63,7 +63,8 @@ const product = reactive({
 </template>
 
 <style scoped lang="scss">
-// Usando variáveis comuns
+@use "sass:color";
+
 $color-bg-light: #f4f4f4; 
 $color-primary: #004c99;
 $color-text-dark: #333333;
@@ -71,8 +72,9 @@ $color-highlight: #337ab7;
 
 .wedo-section {
   background-color: $color-bg-light;
-  padding: 80px 5%;
+  padding-inline: 5%;
   color: $color-text-dark;
+
 }
 
 .wedo-container {
@@ -189,7 +191,7 @@ $color-highlight: #337ab7;
   transition: background-color 0.3s;
   
   &:hover {
-    background-color: darken($color-primary, 10%);
+    background-color: color.adjust($color-primary, $lightness: -10%)
   }
 }
 </style>

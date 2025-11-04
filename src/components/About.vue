@@ -13,14 +13,14 @@
 
   const teamMembersData = [
     {
-      name: 'Laryssa oliveira',
+      name: 'Larysa Oliveira',
       role: 'Arquiteto Backend',
       description: 'Especialista em desenvolvimento e arquitetura back-end.',
       github: 'https://github.com/2002Larissa',
       photo: 'larissa.jpg'
     },
     {
-      name: 'Yasmim Camille',
+      name: 'Yasmim Lira',
       role: 'Especialista em Qualidade (QA)',
       description: 'Especialista em garantia da qualidade de software, com foco na validação de arquitetura e desenvolvimento front-end.',
       github: 'https://github.com/YasmimB-Lira',
@@ -42,7 +42,7 @@
     },
     {
       name: 'Thailan Sousa',
-      role: 'Egenheiro de Software',
+      role: 'Engenheiro de Software',
       description: 'Especialista dedicado ao desenvolvimento e à segurança da informação.',
       github: 'https://github.com/ThailanSousa',
       photo: 'thailan.jpg'

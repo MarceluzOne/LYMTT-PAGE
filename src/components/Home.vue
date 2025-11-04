@@ -9,7 +9,7 @@
         software sob medida que aumentam a eficiência e
         estimulam a inovação
       </h1>
-      <a href="#solicitar-orcamento" class="hero-section__button">
+      <a href="#contato" class="hero-section__button">
         Solicite seu orçamento
       </a>
     </div>

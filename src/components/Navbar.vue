@@ -68,7 +68,7 @@
     justify-content: space-between;
     align-items: center;
     height: 80px;
-    padding-right: 10%;
+    padding-right: 15%;
     background-color: $color-bg-main;
 
     &--logo {
@@ -112,10 +112,12 @@
 
       .navbar--link {
         color: $color-text-menu;
+        justify-content: center;
         font-weight: bold;
         text-decoration: none;
         transition: color 0.3s;
         font-size: 0.9em;
+        
 
         &:hover {
           color: color.adjust($color-text-menu, $lightness: -15%)
@@ -142,6 +144,7 @@
           width: 100%;
           text-align: center;
           padding: 15px 0;
+          padding-right: 50px;
           border-bottom: 1px solid color.adjust($color-primary, $lightness: 60%);
         }
 

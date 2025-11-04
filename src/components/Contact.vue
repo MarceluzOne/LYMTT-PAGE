@@ -113,7 +113,7 @@
     padding: 80% 5%;
 
     @media (min-width: 420px) {
-      padding: 6% 5%;
+      padding: 50% 5%;
     }
 
     @media (min-width: 520px) {

@@ -112,9 +112,6 @@
     }
   }
 
-
-
-
   .services-title {
     text-align: center;
     font-size: 2.2em;
@@ -164,13 +161,16 @@
       font-size: 3em;
       background-color: white;
       margin-bottom: 15px;
-      padding: 30px;
+      padding: 10px;
       font-weight: 300;
       width: 60px;
       height: 60px;
       display: flex;
       align-items: center;
       justify-content: center;
+      @media(min-width: 520px){
+        padding: 30px;
+      }
 
       span {
         display: block;
