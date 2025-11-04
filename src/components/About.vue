@@ -15,28 +15,28 @@
     {
       name: 'Larysa Oliveira',
       role: 'Arquiteto Backend',
-      description: 'Especialista em desenvolvimento e arquitetura back-end.',
+      description: 'Especialista em desenvolvimento e arquitetura backend.',
       github: 'https://github.com/2002Larissa',
       photo: 'larissa.jpg'
     },
     {
       name: 'Yasmim Lira',
-      role: 'Especialista em Qualidade (QA)',
-      description: 'Especialista em garantia da qualidade de software, com foco na validação de arquitetura e desenvolvimento front-end.',
+      role: 'Especialista em Qualidade',
+      description: 'Especialista em qualidade de software, com foco na validação de arquitetura.',
       github: 'https://github.com/YasmimB-Lira',
       photo: 'yasmim.jpg'
     },
     {
       name: 'Marcelo Arruda',
       role: 'Desenvolvedor Frontend',
-      description: 'Combina os frameworks frontend para entrega escalavel.',
+      description: 'Especialista em Frontend, focado na arquitetura e soluções escaláveis.',
       github: 'https://github.com/MarceluzOne',
       photo: 'marcelo.jpg'
     },
     {
       name: 'Thialy Lima',
       role: 'Desenvolvedora Full-stack',
-      description: 'Especialista em desenvolvimento full-stack, com foco em performance e escalabilidade de aplicações.',
+      description: 'Especialista Full-stack com foco em performance e escalabilidade.',
       github: 'https://github.com/thialylima',
       photo: 'thialy.jpg'
     },
@@ -88,8 +88,8 @@
             <p class="member-card__description">{{ member.description }}</p>
           </div>
           <div>
-            <a style="color:black" :href="member.github" target="_blank">
-              <font-awesome-icon :icon="['fab', 'github']" />
+            <a class="member-card__icon" :href="member.github" target="_blank">
+              <font-awesome-icon style="height: 30px;" :icon="['fab', 'github']" />
             </a>
           </div>
 
@@ -166,6 +166,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    gap: 10px;
     padding: 20px;
     border-radius: 8px;
     background-color: $color-bg-light;
@@ -192,17 +193,19 @@
       color: $color-primary;
       margin-bottom: 5px;
     }
-
     &__role {
       font-size: 0.9em;
       font-weight: 600;
       color: $color-text-highlight;
       margin-bottom: 10px;
     }
-
     &__description {
       font-size: 0.9em;
       color: #666;
+    }
+    &__icon{
+      color: $color-primary;
+      width: 20px;
     }
   }
 </style>
