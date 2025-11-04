@@ -58,7 +58,7 @@ const navItems = reactive([
 </template>
 
 <style scoped lang="scss">
-
+@use "sass:color";
 $color-primary: #004c99;
 $color-text-menu: #337ab7;
 $color-bg-top: #222222;
@@ -131,7 +131,7 @@ $breakpoint-mobile: 766px;
       font-size: 0.9em; 
 
       &:hover {
-        color: darken($color-text-menu, 15%);
+        color: color.adjust($color-text-menu, $lightness: -15%)
       }
     }
 
@@ -155,7 +155,7 @@ $breakpoint-mobile: 766px;
         width: 100%;
         text-align: center;
         padding: 15px 0;
-        border-bottom: 1px solid lighten($color-primary, 60%);
+        border-bottom: 1px solid color.adjust($color-primary, $lightness: 60%);
       }
 
       &.is-open {

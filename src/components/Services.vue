@@ -94,7 +94,7 @@ const services = reactive(
 </template>
 
 <style scoped lang="scss">
-
+@use "sass:color";
 
 $color-bg-blue: #004c99;
 $color-text-light: #ffffff;
@@ -223,7 +223,7 @@ $color-cta-text: #004c99;
     font-size: 1em;
     
     &:hover {
-        background-color: darken($color-cta-button, 10%);
+        background-color: color.adjust($color-cta-button, $lightness: -10%)
     }
   }
 }

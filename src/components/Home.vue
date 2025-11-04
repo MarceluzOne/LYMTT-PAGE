@@ -19,13 +19,10 @@
 </template>
 
 <style scoped lang="scss">
-$color-hero-bg: #004c99;
-$color-hero-text: #ffffff;
-$color-button-bg: #ffffff;
-$color-button-text: #004c99;
+@use "sass:color";
 
 .hero-section {
-  background-color: $color-hero-bg;
+  background-color:#004c99;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -52,7 +49,7 @@ $color-button-text: #004c99;
   }
 
   &__title {
-    color: $color-hero-text;
+    color: white;
     font-size: 2em;
     line-height: 1.3;
     text-align: center;
@@ -69,8 +66,8 @@ $color-button-text: #004c99;
 
   &__button {
     display: inline-block;
-    background-color: $color-button-bg;
-    color: $color-button-text;
+    background-color: white;
+    color: #004c99;
     padding: 15px 30px;
     border-radius: 8px;
     text-decoration: none;
@@ -79,8 +76,8 @@ $color-button-text: #004c99;
     transition: background-color 0.3s, color 0.3s;
 
     &:hover {
-      background-color: lighten($color-button-text, 60%);
-      color: $color-button-bg; 
+      background-color: color.adjust(#004c99, $lightness: 60%);;
+      color: white; 
     }
   }
 

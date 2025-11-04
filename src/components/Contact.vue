@@ -122,6 +122,7 @@ const submitForm = () => {
 </template>
 
 <style scoped lang="scss">
+@use "sass:color";
 $color-bg-blue: #004c99;
 $color-text-light: #ffffff;
 $color-card-bg: #ffffff;
@@ -249,7 +250,7 @@ $color-input-focus: #337ab7;
   transition: background-color 0.3s;
   
   &:hover:not(:disabled) {
-    background-color: darken($color-input-focus, 10%);
+    background-color: color.adjust($color-input-focus, $lightness: -10%);
   }
 
   &:disabled {
