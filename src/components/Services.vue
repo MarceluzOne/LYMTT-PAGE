@@ -111,6 +111,7 @@
 
   .services-title {
     text-align: center;
+    padding-top: 5%;
     font-size: 2em;
     font-weight: 700;
     margin-bottom: 50px;
