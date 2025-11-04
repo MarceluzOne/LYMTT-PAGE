@@ -12,7 +12,7 @@
 
   const teamMembersData = [
     {
-      name: 'Larysa Oliveira',
+      name: 'Larissa Oliveira',
       role: 'Arquiteto Backend',
       description: 'Especialista em desenvolvimento e arquitetura backend.',
       github: 'https://github.com/2002Larissa',

@@ -192,13 +192,17 @@
       display: flex;
       flex-direction: column;
       justify-content: right;
-      align-items: end;
+      align-items: center;
+      @media(min-width: 530px){
+        align-items: end;
+      }
     }
 
     &__text {
       font-size: 1.5em;
       line-height: 1.4;
       margin-bottom: 20px;
+      text-align: justify;
 
       strong {
         font-weight: 700;
