@@ -202,7 +202,11 @@
       font-size: 1.5em;
       line-height: 1.4;
       margin-bottom: 20px;
-      text-align: justify;
+      text-align: center;
+      @media(min-width: 500px){
+        text-align: justify;
+      }
+
 
       strong {
         font-weight: 700;
