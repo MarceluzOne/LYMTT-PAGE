@@ -73,7 +73,6 @@
       <div class="contact-section__illustration">
         <img src="@/assets/concept-message.svg" alt="Pessoas trabalhando com email e código" />
       </div>
-
       <div class="contact-section__form-wrapper">
         <form @submit.prevent="submitForm" class="contact-form">
 

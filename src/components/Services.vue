@@ -54,7 +54,6 @@
 <template>
   <section class="services-wrapper" id="servicos">
     <div class="services-wrapper__container">
-
       <h2 class="services-title">
         NOSSOS SERVIÇOS
       </h2>
@@ -84,8 +83,6 @@
           </div>
         </div>
       </div>
-
-
     </div>
   </section>
 </template>
@@ -138,7 +135,6 @@
   }
 
   .service-card {
-
     &__box {
       display: flex;
       flex-direction: column;
@@ -168,7 +164,8 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      @media(min-width: 520px){
+
+      @media(min-width: 520px) {
         padding: 30px;
       }
 
@@ -196,7 +193,6 @@
       flex-direction: column;
       justify-content: right;
       align-items: end;
-
     }
 
     &__text {

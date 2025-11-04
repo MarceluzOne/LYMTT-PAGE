@@ -11,13 +11,12 @@
     isMenuOpen.value = false;
   };
 
-
   const navItems = reactive([
     { name: 'INÍCIO', link: '#inicio' },
     { name: 'SERVIÇOS', link: '#servicos' },
     { name: 'CONTATO', link: '#contato' },
     { name: 'SOBRE NÓS', link: '#sobre-nos' },
-    { name: 'NOSSOS PRODUTOS', link: '#products' },
+    { name: 'NOSSOS PRODUTOS', link: '#produtos' },
   ]);
 </script>
 
@@ -59,8 +58,6 @@
     z-index: 1000;
     background-color: $color-bg-main;
     padding: 0 5%;
-
-
   }
 
   .navbar {
@@ -117,7 +114,6 @@
         text-decoration: none;
         transition: color 0.3s;
         font-size: 0.9em;
-        
 
         &:hover {
           color: color.adjust($color-text-menu, $lightness: -15%)

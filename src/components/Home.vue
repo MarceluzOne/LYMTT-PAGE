@@ -36,8 +36,6 @@
       padding: 80px 10%;
     }
 
-
-
     &__content {
       flex: 1;
       text-align: center;

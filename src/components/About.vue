@@ -1,7 +1,6 @@
 <script setup>
   import { reactive } from 'vue';
 
-
   const getPhotoPath = (photoFileName) => {
     try {
       return new URL(`../assets/us/${photoFileName}`, import.meta.url).href;
@@ -60,9 +59,7 @@
 <template>
   <section class="about-us-section" id="sobre-nos">
     <div class="about-us-container">
-
       <h2 class="section-title">Nossa História e Missão</h2>
-
       <div class="mission-block">
         <p class="mission-text">
           Nascemos da paixão por transformar processos complexos em soluções digitais elegantes e eficientes. Nossa
@@ -92,13 +89,10 @@
               <font-awesome-icon style="height: 30px;" :icon="['fab', 'github']" />
             </a>
           </div>
-
         </div>
       </div>
       <div class="team-grid">
-
       </div>
-
     </div>
   </section>
 </template>
@@ -193,17 +187,20 @@
       color: $color-primary;
       margin-bottom: 5px;
     }
+
     &__role {
       font-size: 0.9em;
       font-weight: 600;
       color: $color-text-highlight;
       margin-bottom: 10px;
     }
+
     &__description {
       font-size: 0.9em;
       color: #666;
     }
-    &__icon{
+
+    &__icon {
       color: $color-primary;
       width: 20px;
     }
