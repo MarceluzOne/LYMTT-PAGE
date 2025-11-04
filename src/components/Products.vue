@@ -70,6 +70,7 @@
     background-color: $color-bg-light;
     padding-inline: 5%;
     color: $color-text-dark;
+    padding-bottom: 100px;
 
   }
 
