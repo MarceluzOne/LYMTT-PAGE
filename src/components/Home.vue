@@ -22,7 +22,7 @@
   @use "sass:color";
 
   .hero-section {
-    background-color: #004c99;
+    background-color: transparent;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,8 +32,8 @@
 
     @media (min-width: 768px) {
       flex-direction: row;
-      justify-content: center;
-      padding: 80px 10%;
+      justify-content: space-evenly;
+      padding: 70px 5%;
     }
 
     &__content {
@@ -56,7 +56,7 @@
 
       @media (min-width: 768px) {
         font-size: 2em;
-        text-align: justify;
+        text-align: left;
       }
 
       @media (min-width: 1024px) {
@@ -100,6 +100,7 @@
 
       @media (min-width: 1024px) {
         min-height: 500px;
+        max-width: 500px;
       }
     }
   }

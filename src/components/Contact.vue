@@ -108,8 +108,8 @@
   $color-input-focus: #337ab7;
 
   .contact-section {
-    background-color: $color-bg-blue;
-    padding: 80% 5%;
+    background-color: transparent;
+    padding: 80% 5% 15% 5% ;
 
     @media (min-width: 420px) {
       padding: 50% 5%;

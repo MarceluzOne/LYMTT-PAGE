@@ -98,7 +98,7 @@
   $color-cta-text: #004c99;
 
   .services-wrapper {
-    background-color: $color-bg-blue;
+    background-color: #ffffff00;
     padding-inline: 10%;
     padding-bottom: 40%;
     color: $color-text-light;

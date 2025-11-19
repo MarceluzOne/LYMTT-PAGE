@@ -45,7 +45,7 @@
 <style scoped lang="scss">
   @use "sass:color";
   $color-primary: #004c99;
-  $color-text-menu: #337ab7;
+  $color-text-menu: #00417a;
   $color-bg-top: #222222;
   $color-bg-main: #ffffff;
   $breakpoint-mobile: 766px;
@@ -65,7 +65,7 @@
     justify-content: space-between;
     align-items: center;
     height: 80px;
-    padding-right: 15%;
+    padding-right: 10%;
     background-color: $color-bg-main;
 
     &--logo {
@@ -73,7 +73,7 @@
       align-items: center;
 
       .logo-img {
-        height: 60px;
+        height: 70px;
         width: auto;
       }
     }
@@ -104,7 +104,7 @@
 
     &--menu {
       display: flex;
-      gap: 30px;
+      gap: 50px;
       background-color: $color-bg-main;
 
       .navbar--link {

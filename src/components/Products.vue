@@ -62,9 +62,9 @@
   @use "sass:color";
 
   $color-bg-light: #f4f4f4;
-  $color-primary: #004c99;
+  $color-primary: #002499;
   $color-text-dark: #333333;
-  $color-highlight: #337ab7;
+  $color-highlight: #016dcc;
 
   .wedo-section {
     background-color: $color-bg-light;

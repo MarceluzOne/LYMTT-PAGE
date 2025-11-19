@@ -8,7 +8,7 @@ html, body{
   font-family: 'Roboto', sans-serif;
 }
 body{
-  background-color: #004C99
+  background: linear-gradient(135deg, #002896, #00b7ff);
 }
 html {
     scroll-behavior: smooth;
